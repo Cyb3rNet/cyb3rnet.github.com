@@ -39,7 +39,7 @@ body
 	display:none;
 	text-align:right;
 }
-#gh-public-repos-display a
+#gh-public-repos-display p a
 {
 	text-align:right;
 	color:#583900;

@@ -43,7 +43,7 @@ function _showRepos()
 
 function _loadRepos()
 {
-	jQuery(sReposDisplayId).github({ user: sGH_ACCOUNT, tpl: '<li><a href="%url%">%name%</a><p>%description%</p><div></div></li>', cb: "_showRepos()" });
+	jQuery(sReposDisplayId).github({ user: sGH_ACCOUNT, tpl: '<li><p><a href="%url%">%name%</a> %description%</p><div></div></li>', cb: "_showRepos()" });
 
 }
 
